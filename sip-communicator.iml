@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="jar://$MODULE_DIR$/lib/JainSipApi1.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/jmf-native.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/jmf.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/log4j-1.2.8.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/nist-sdp-1.0.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/nist-sip-1.2.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/sound.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/Stun4J.jar!/" />
+    <src_description expected_position="0">
+      <src_folder value="file://$MODULE_DIR$/src" expected_position="0" />
+    </src_description>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="module-library">
+      <library name="JainSipApi1.1.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/JainSipApi1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jmf-native.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/jmf-native.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jmf.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/jmf.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="log4j-1.2.8.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/log4j-1.2.8.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="nist-sdp-1.0.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/nist-sdp-1.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="nist-sip-1.2.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/nist-sip-1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="sound.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/sound.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Stun4J.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/Stun4J.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
