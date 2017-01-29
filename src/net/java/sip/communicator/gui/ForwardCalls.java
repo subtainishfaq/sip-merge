@@ -104,6 +104,30 @@ public class ForwardCalls extends JDialog
 		if (forwardee.equals("")){
 			info = "You do not forward your calls";
 		}
+		else if(Global.forwardIndex>0)
+		{
+			boolean isForwardLoop=false;
+			for(int i=0;i<Global.forwardIndex;i++)
+			{
+				if(Global.forwardLoop[i].equalsIgnoreCase(forwardee))
+				{
+					isForwardLoop=true;
+					break;
+				}
+			}
+			if(!isForwardLoop)
+			{
+
+				Global.forwardLoop[Global.forwardIndex]=forwardee;	
+				Global.forwardIndex++;
+			}
+			else
+			{
+				System.out.println("********* This is forward loop :"+forwardee+"********"  );
+				
+			}
+
+		}
 		JLabel splashLabel2 = new JLabel(info);
 		//splashLabel2.setBorder(BorderFactory.createEmptyBorder(5,5,5,5));
 		splashLabel2.setHorizontalAlignment(SwingConstants.CENTER);

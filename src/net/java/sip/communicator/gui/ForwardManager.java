@@ -89,6 +89,7 @@ public class ForwardManager extends DatabaseServer{
 		try {
 			if (rs.next())
 				ret = rs.getString("forwardee");
+		
 
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
